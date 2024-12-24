@@ -73,7 +73,7 @@ namespace OOP_project
                         }
                         else
                         {
-                            writer.WriteLine(this.AccountNumber + "#//#" + c.PIN + "#//#" + c.ClientName + "#//#" + c.PhoneNumber + "#//#" + Accountbalance+"#//#" + c.savingAccount.Balance);
+                            writer.WriteLine(c.AccountNumber + "#//#" + c.PIN + "#//#" + c.ClientName + "#//#" + c.PhoneNumber + "#//#" + Accountbalance+"#//#" + c.savingAccount.Balance);
                         }
                     }
                 }
